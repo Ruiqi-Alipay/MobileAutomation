@@ -1,21 +1,22 @@
 {
   "name": "MolbileAutomation",
   "version": "0.1.0",
-  "description": "MolbileAutomation",
-  "main": "hello-world-server.js",
+  "description": "Alipay mobile automation",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha -u tdd index.js"
   },
   "repository": "",
   "keywords": [
     "node.js",
-    "eclipse",
-    "nodeclipse"
+    "mocha",
+    "selenium"
   ],
-  "author": "",
+  "author": "ruiqi.li",
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-	"selenium-webdriver": "^2.44.0"
+    "mocha": "^2.1.0",
+    "selenium-webdriver": "^2.44.0"
   }
 }
